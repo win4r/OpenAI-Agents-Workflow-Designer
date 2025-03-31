@@ -1,0 +1,182 @@
+.app-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  z-index: 10;
+}
+
+.app-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.app-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.app-content {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+.left-panel {
+  width: 250px;
+  height: 100%;
+  border-right: 1px solid #eee;
+  overflow-y: auto;
+  padding: 15px;
+  background-color: #fafafa;
+}
+
+.canvas-area {
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+
+.right-panel {
+  width: 300px;
+  height: 100%;
+  border-left: 1px solid #eee;
+  overflow-y: auto;
+  padding: 15px;
+  background-color: #fafafa;
+}
+
+/* 组件面板样式 */
+.components-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.panel-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.component-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: white;
+  cursor: grab;
+  transition: all 0.2s;
+}
+
+.component-item:hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.component-icon {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.component-info {
+  flex: 1;
+}
+
+.component-name {
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.component-desc {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* 属性面板样式 */
+.properties-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.property-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.property-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #555;
+}
+
+/* 节点样式 */
+.node-header {
+  padding: 8px 10px;
+  font-weight: 600;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.node-content {
+  padding: 10px;
+}
+
+.node-field {
+  margin-bottom: 8px;
+}
+
+.node-field-label {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 2px;
+}
+
+/* 代码生成弹窗样式 */
+.code-modal {
+  width: 800px !important;
+}
+
+.code-container {
+  position: relative;
+}
+
+.copy-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+/* 连接线样式 */
+.react-flow__edge-path {
+  stroke-width: 2;
+}
+
+.edge-agent-agent {
+  stroke: #3498db;
+}
+
+.edge-function-agent {
+  stroke: #f39c12;
+}
+
+.edge-agent-runner {
+  stroke: #e74c3c;
+}
