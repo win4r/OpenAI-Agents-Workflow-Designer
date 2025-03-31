@@ -1,5 +1,8 @@
 # OpenAI Agents Workflow Designer
 
+### video(视频):https://youtu.be/KQULGx6wjco
+### 我的微信: stoeng
+
 [English](#english) | [中文](#中文)
 
 ![OpenAI Agents Workflow Designer](https://img.shields.io/badge/OpenAI-Agents_Workflow_Designer-412991)
