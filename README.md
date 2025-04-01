@@ -1,6 +1,7 @@
 # OpenAI Agents Workflow Designer
 
 ### video(视频):https://youtu.be/KQULGx6wjco
+### Demo: https://x.com/AISuperDomain/status/1906739439319257495
 ### 我的微信: stoeng
 
 [English](#english) | [中文](#中文)
